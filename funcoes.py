@@ -4,7 +4,7 @@ import matplotlib.backends.backend_pdf as pdf_backend
 from datetime import datetime
 import os
 
-# exibir tempo tortal
+# exibir tempo total
 def tempo_total_em_h(df):
     """Exibe a duração total da playlist em horas."""
     if 'Duration (ms)' not in df.columns:

@@ -92,3 +92,5 @@ df = carregar_arquivo()
 df = renomear_colunas(df)
 
 selecionar_acao_desejada(df)
+
+
