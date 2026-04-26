@@ -115,10 +115,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
 Feito por [xsindgy](https://github.com/xsindgy)
