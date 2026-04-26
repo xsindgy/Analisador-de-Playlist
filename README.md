@@ -9,11 +9,12 @@
 O **Playlist Analyzer** é uma ferramenta de linha de comando feita em Python que lê os dados da sua playlist do Spotify exportados em `.CSV` e gera análises visuais completas.
 
 ### O que você pode descobrir sobre sua playlist:
-- 🎤 Os **10 artistas** mais presentes
-- 💿 Os **5 álbuns** com mais músicas
-- 🎸 Os **gêneros musicais** dominantes
-- ⏱️ A **duração total** da playlist em horas
-- 📄 **Relatório completo em PDF** com todos os gráficos
+
+* 🎤 Os **10 artistas** mais presentes
+* 💿 Os **5 álbuns** com mais músicas
+* 🎸 Os **gêneros musicais** dominantes
+* ⏱️ A **duração total** da playlist em horas
+* 📄 **Relatório completo em PDF** com todos os gráficos
 
 ---
 
@@ -21,14 +22,14 @@ O **Playlist Analyzer** é uma ferramenta de linha de comando feita em Python qu
 
 ### 1. Clone o repositório
 
-```bash
+```
 git clone https://github.com/xsindgy/analisador-playlist.git
 cd analisador-playlist
 ```
 
 ### 2. Instale as dependências
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -36,11 +37,11 @@ pip install -r requirements.txt
 
 Acesse [exportify.net](https://exportify.net), faça login com sua conta do Spotify e baixe a playlist desejada em `.CSV`.
 
-![Exportify](screenshots/exportify.png)
+[![Exportify](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/Captura%20de%20tela%202026-04-25%20235004.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/Captura%20de%20tela%202026-04-25%20235004.png)
 
 ### 4. Execute o programa
 
-```bash
+```
 python main.py
 ```
 
@@ -56,26 +57,31 @@ Quando solicitado, cole o caminho do arquivo `.CSV` exportado.
 
 ### 6. Escolha o que deseja analisar
 
-![Menu](screenshots/menu.png)
+[![Menu](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/selecionara%C3%A7aodesejada.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/selecionara%C3%A7aodesejada.png)
 
 ---
 
 ## 📸 Screenshots
 
 ### Código — Tratamento de erros ao carregar o arquivo
-![Tratamento de erros](screenshots/tratamento_erros.png)
+
+[![Tratamento de erros](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/tratamento%20de%20erros.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/tratamento%20de%20erros.png)
 
 ### Código — Limpeza de terminal
-![Limpar terminal](screenshots/limpar_terminal.png)
+
+[![Limpar terminal](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/limparterminal.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/limparterminal.png)
 
 ### Código — Estrutura principal
-![Main](screenshots/main_inicio.png)
+
+[![Main](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/mainpyinicio.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/mainpyinicio.png)
 
 ### Código — Menu de opções
-![Selecionar ação](screenshots/selecionar_acao.png)
+
+[![Selecionar ação](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/selecionara%C3%A7aodesejada.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/selecionara%C3%A7aodesejada.png)
 
 ### Resultado — Gráfico de álbuns
-![Grafico albuns](screenshots/grafico_albuns.png)
+
+[![Grafico albuns](https://github.com/xsindgy/Analisador-de-Playlist/raw/main/screenshots/Captura%20de%20tela%202026-04-25%20234758.png)](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/screenshots/Captura%20de%20tela%202026-04-25%20234758.png)
 
 ---
 
@@ -96,12 +102,13 @@ analisador-playlist/
 ## 📦 Dependências
 
 | Biblioteca | Uso |
-|------------|-----|
+| --- | --- |
 | `pandas` | Leitura e manipulação dos dados CSV |
 | `matplotlib` | Geração dos gráficos e exportação em PDF |
 
 Instale tudo de uma vez:
-```bash
+
+```
 pip install -r requirements.txt
 ```
 
@@ -109,11 +116,15 @@ pip install -r requirements.txt
 
 ## 🛠️ Tecnologias utilizadas
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org)
 
 ---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/LICENSE) para mais detalhes.
 
 ---
 
