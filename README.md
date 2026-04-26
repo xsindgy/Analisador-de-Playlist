@@ -120,11 +120,6 @@ pip install -r requirements.txt
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org)
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/xsindgy/Analisador-de-Playlist/blob/main/LICENSE) para mais detalhes.
 
 ---
 
